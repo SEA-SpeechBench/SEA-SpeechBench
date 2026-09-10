@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local outputs / caches
+logs/
+run_log/
+*.log
+vllm_*.log
+hpc_scripts/logs/
+hpc_scripts/vllm_log/
+
+# Model / dataset artifacts
+*.safetensors
+*.bin
+*.pt
+*.wav
+*.mp3
+*.flac
+*.sqsh
+
+# Results
+results/
+outputs/
+speechbench_results/
